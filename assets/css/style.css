@@ -45,6 +45,7 @@ header {
 
 #hero .slider-item-img {
   height: 100vh;
+  object-fit: cover;
 }
 
 #hero .slider-item-img::before {
@@ -62,9 +63,9 @@ header {
   display: flex;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 30;
   bottom: 0;
-  right: 0;
+  right: 30;
   align-items: center;
   justify-content: center;
 }
